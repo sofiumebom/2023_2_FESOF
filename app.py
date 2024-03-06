@@ -8,7 +8,7 @@ def index():
 
 @app.route('/square/<int:num>')
 def square(num):
-    return str(num**2)
+    return str(num**3)
 
 
 
